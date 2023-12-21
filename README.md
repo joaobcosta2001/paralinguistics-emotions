@@ -10,3 +10,17 @@ dataset-preparation.py takes the dataset that was directly downloaded from CREMA
 
 ## Testing
 
+
+
+## Usage Instructions
+
+This instructions are for Windows.
+
+- Create an empty folder
+- Open a terminal and navigate to the folder that was just created
+- Download the CREMA-D dataset by running the following command. You might need to install [git lfs](https://git-lfs.com).
+`git lfs clone https://github.com/CheyneyComputerScience/CREMA-D.git`
+- Clone this repository to the same initial folder.
+- To prepare the dataset run dataset-preparation.py
+- To train the model run train.py
+
